@@ -1,23 +1,14 @@
-# 确保脚本抛出遇到的错误
-set -e
-
 # 生成静态文件
-npm run docs:build
+npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd .vuepress/dist
 
-# 如果是发布到自定义域名
-# echo 'www.example.com' > CNAME
-
+git remote add  origin https://github.com/yujiahan2018/myblogsite.git
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'blogcommit'
 
-# 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# 发布到 https://<USERNAME>.github.io/<REPO>
+git push origin main https://github.com/yujiahan2018/myblogsite.git
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/yujiahan2018/blog-test.git
-
-cd -
