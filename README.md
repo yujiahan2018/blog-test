@@ -9,7 +9,7 @@ bannerBrand:
   description: 一名后端菜鸡的技术博客
   tagline: 欢迎来到我的博客。
   buttons:
-    - { text: 进入博客, link: '/blogs/bloghome' }
+    - { text: 进入博客, link: './blogs/bloghome' }
     - { text: Gitee Homepage, link: 'https://gitee.com/yjh-biancheng', type: 'plain' }
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }

@@ -7,6 +7,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 export default defineUserConfig({
   title: "vuepress-theme-reco",
   description: "Just playing around",
+  base: "/myblogsite/",
   
   plugins: [
     mdEnhancePlugin({
