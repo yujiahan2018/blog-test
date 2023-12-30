@@ -1,10 +1,6 @@
 name: Deploy GitHub Pages
 
-<<<<<<< HEAD
-# 触发条件：在 push 到指定分支后
-=======
 # 触发条件：在 push 到 指定分支后
->>>>>>> 6a9ecb995163ab16e6f8a77f5144e60f67799cf3
 on:
   push:
     branches:
@@ -32,4 +28,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+          FOLDER: /.vuepress/dist
