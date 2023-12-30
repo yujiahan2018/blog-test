@@ -9,8 +9,6 @@
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
     "build": "vuepress build ."
-    
-    
   },
   "devDependencies": {
     "katex": "^0.16.9",
