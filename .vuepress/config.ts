@@ -27,6 +27,7 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
+    permalinkPattern:":year/:month/:day/:slug.html",
 
      // 自动设置分类
     // autoSetBlogCategories: true,
