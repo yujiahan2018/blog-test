@@ -28,7 +28,15 @@ export default defineUserConfig({
     docsDir: "example",
     lastUpdatedText: "",
 
-     
+     // 自动设置分类
+    // autoSetBlogCategories: true,
+    // // 自动将分类和标签添加至头部导航条，API 后期会做调整，但不会废弃，请谨慎使用
+    // autoAddCategoryToNavbar: {
+    //   location: 1, // 默认 0
+    //   categoryText: '分类', // 默认 categories
+    //   tagText: '标签' // 默认 tags
+    // },
+
 
     // series 为原 sidebar
     series: {
