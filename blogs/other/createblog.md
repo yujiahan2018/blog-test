@@ -1,8 +1,8 @@
 ---
 title: 通过VuePress 搭建 blog
-date: 2019/04/09
+date: 2023/12/30
 categories:
- - reco
+ - other
 tags:
  - 入门
 ---
